@@ -222,7 +222,7 @@ ul li {
       }
 }
 
-#buttonMore {
+/*#buttonMore {
     font-size: 20pt;
     font-family: 'Quicksand', sans-serif;
     color: rgb(43, 43, 43);
@@ -232,8 +232,39 @@ ul li {
 #buttonMore:hover {
     color: hotpink;
     font-size: 23pt;
+}*/
+
+#firstPic:hover {
+    width: 280px;
+    height: auto;
 }
 
 #imgClick {
     text-align: center;
+}
+
+.aboutProduct {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 55%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+#drawing{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: -10%;
+}
+
+#original {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    display: none;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: -10%;
 }
